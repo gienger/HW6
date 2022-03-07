@@ -6,28 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/stylesheet.css">
     <title>Alec's Page</title>
+    <style>
+        h1.center {text-align: center;}
+        h1.large {font-size: 300%;}
+        div.bio {
+            background-color: lightgrey;
+            width: 300px;
+            border: 15px solid rgb(9, 0, 128);
+            padding: 50px;
+            margin: 20px;
+        }
+        div.fixed {
+            position:relative;
+            bottom: 725px;
+            left: 800px;
+        }
+    </style>
 </head>
 <body>
-
-    <header><h1>Welcome to the Official Page of Alec Gienger</h1></header>
+    <header><h1 class="center large"> Welcome to the Official Page of Alec Gienger</h1></header>
+    
     <main>
         <article>
-            <h3>About Me</h3>
-            <p>I am 21 years old, and finishing up my undergrad at the University of Iowa studying Finance 
+            <h2>About Me</h2>
+            <div class="bio">I am 21 years old, and finishing up my undergrad at the University of Iowa studying Finance 
                 and Business Analytics Information Systems. I grew up in Cedar Rapids, Iowa and graduated from 
-                Linn-Mar Highschool. 
-            </p>
+                Linn-Mar Highschool. </div>
         </article>
-        <section>
-            <h2>Hey, it's me!</h2>
-            <p><img src="./images/Profilepic.jpg" alt="Me"></p>
+            <h3>Hey, it's me!</h3>
+                <img src="./images/Profilepic.jpg" alt="Me">
+            <div class="fixed">
+                <h4> <span class="bold">My little brother, Aaron, and I in Ames for the Iowa Vs. Iowa State game!</span></h4>
+                <img src="./images/BeatState.jpeg" alt="BroPic">
+            </div>     
+        <h5>Links</h5>
+        <ul>
+            <li><a href="Links.html"> Contact Me </a></li>
+            <li><a href="homies.html">The Boys</a></li>
+        </ul>
 
-            <article>
-                <h3>My little brother and I in Ames for the Iowa Vs. Iowa State game!</h3>
-                <p><img src="./images/BeatState.jpeg" alt="BroPic"></p>            
-            </article>
-        </section>
-        <a href="Links.html"> Alec's Links </a>
     </main>
     <footer>&copy; Alec Gienger 2022</footer>
 </body>
