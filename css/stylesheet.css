@@ -2,11 +2,20 @@ body{background-color: cornsilk;
 font-family:'Courier New', Courier, monospace;
 }
 h2 {
-    color: black;
-    font-size: 200%;
+    color:midnightblue;
+    font-size:x-large;
 }
+
+/*CSS Class*/
 .bold {
-    color: dodgerblue;
+    color: midnightblue;
     font-weight: bold;
     
+}
+h5 {
+    color: midnightblue;
+    font-size: larger;
+}
+h3 {
+color: midnightblue;
 }
